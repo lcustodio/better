@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - '0.8'
+  //- '0.8'
   - '0.10'
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+deploy:
+  provider: heroku
+  api_key: "85400e1f-0079-4510-b517-4113f469d79c"
