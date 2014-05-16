@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #e5c016;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -12,16 +13,23 @@ body {
   padding-right: 15px;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+}
+
+.nav-better > li.active > a,
+.nav-better > li.active > a:hover,
+.nav-better > li.active > a:focus {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.nav-better > li > a {
+  color: #000000;
 }
 
 /* Custom page footer */
