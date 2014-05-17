@@ -7,3 +7,4 @@ before_script:
 deploy:
   provider: heroku
   api_key: "85400e1f-0079-4510-b517-4113f469d79c"
+  app: cocuma-better
