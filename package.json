@@ -30,8 +30,8 @@
     "grunt-karma": "~0.8.2",
     "karma": "~0.12.6",
     "karma-ng-html2js-preprocessor": "~0.1.0",
-    "karma-jasmine": "~0.1.5"
-    "gzippo" : "~0.2.0"
+    "karma-jasmine": "~0.1.5",
+    "gzippo" : "~0.2.0",
     "express" : "~4.2.0"
   },
   "engines": {
