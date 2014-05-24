@@ -24,7 +24,23 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div ng-view=""></div>
+    <div class="header">
+        <ul class="nav nav-pills nav-better pull-right">
+          <li class="active">
+            <a ng-href="#">Home</a>
+          </li>
+          <li>
+            <a ng-href="#">Sobre</a>
+          </li>
+          <li>
+            <a ng-href="#/bet">Aposta</a>
+          </li>
+        </ul>
+        <a ng-href="#"><img src="images/better.png"/></a>
+      </div>
+    <div ng-view="">
+      
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
